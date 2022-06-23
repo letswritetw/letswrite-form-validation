@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.js-append-links a {
+  @apply !text-white text-opacity-60
+}
+.js-append-links a:hover {
+  @apply !text-opacity-100
+}
+
+.datepicker-view {
+  @apply text-gray-900
+}
